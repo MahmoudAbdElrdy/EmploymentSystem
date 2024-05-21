@@ -1,5 +1,5 @@
 ﻿using EmploymentSystem.Service;
-using EmploymentSystem.Services.DTOs;
+using EmploymentSystem.DTOs;
 using Microsoft.AspNetCore.Mvc;
 
 [ApiController]

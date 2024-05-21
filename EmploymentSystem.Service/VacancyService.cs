@@ -1,5 +1,5 @@
 ﻿using EmploymentSystem.Data;
-using EmploymentSystem.Services.DTOs;
+using EmploymentSystem.DTOs;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

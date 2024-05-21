@@ -1,5 +1,5 @@
 ﻿using EmploymentSystem.Data;
-using EmploymentSystem.Services.DTOs;
+using EmploymentSystem.DTOs;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using System;
