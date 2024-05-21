@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmploymentSystem.Data", "EmploymentSystem.Data.csproj", "{EA30EE45-461B-4365-AC4A-5A4C2393186B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmploymentSystem.Data", "EmploymentSystem.Data.csproj", "{EA30EE45-461B-4365-AC4A-5A4C2393186B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmploymentSystem.DTO", "..\EmploymentSystem.Services\EmploymentSystem.DTO.csproj", "{51CC9E42-6E59-4A59-9112-185C44D184DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmploymentSystem.CQRS", "..\EmploymentSystem.CQRS\EmploymentSystem.CQRS.csproj", "{BD9056CC-B2AE-4B2B-A4C2-C5CF65D8037D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmploymentSystem.CQRS", "..\EmploymentSystem.CQRS\EmploymentSystem.CQRS.csproj", "{BD9056CC-B2AE-4B2B-A4C2-C5CF65D8037D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmploymentSystem.Service", "..\EmploymentSystem.Service\EmploymentSystem.Service.csproj", "{31821B96-7243-4C86-B0BD-EBB09A3EF652}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmploymentSystem.Service", "..\EmploymentSystem.Service\EmploymentSystem.Service.csproj", "{31821B96-7243-4C86-B0BD-EBB09A3EF652}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmploymentSystem.API", "..\EmploymentSystem.API\EmploymentSystem.API.csproj", "{3CB355CA-AEC9-4350-ACCE-9673CDB7313E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmploymentSystem.API", "..\EmploymentSystem.API\EmploymentSystem.API.csproj", "{3CB355CA-AEC9-4350-ACCE-9673CDB7313E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmploymentSystem.DTO", "..\EmploymentSystem.Dto\EmploymentSystem.DTO.csproj", "{CF3878FD-9799-4B06-9AB5-EB6FCD8556EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,6 @@ Global
 		{EA30EE45-461B-4365-AC4A-5A4C2393186B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA30EE45-461B-4365-AC4A-5A4C2393186B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA30EE45-461B-4365-AC4A-5A4C2393186B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{51CC9E42-6E59-4A59-9112-185C44D184DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{51CC9E42-6E59-4A59-9112-185C44D184DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{51CC9E42-6E59-4A59-9112-185C44D184DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{51CC9E42-6E59-4A59-9112-185C44D184DD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BD9056CC-B2AE-4B2B-A4C2-C5CF65D8037D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BD9056CC-B2AE-4B2B-A4C2-C5CF65D8037D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD9056CC-B2AE-4B2B-A4C2-C5CF65D8037D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{3CB355CA-AEC9-4350-ACCE-9673CDB7313E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CB355CA-AEC9-4350-ACCE-9673CDB7313E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CB355CA-AEC9-4350-ACCE-9673CDB7313E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF3878FD-9799-4B06-9AB5-EB6FCD8556EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF3878FD-9799-4B06-9AB5-EB6FCD8556EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF3878FD-9799-4B06-9AB5-EB6FCD8556EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF3878FD-9799-4B06-9AB5-EB6FCD8556EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

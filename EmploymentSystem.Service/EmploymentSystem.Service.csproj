@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EmploymentSystem.Data\EmploymentSystem.Data.csproj" />
+    <ProjectReference Include="..\EmploymentSystem.Dto\EmploymentSystem.DTO.csproj" />
     <ProjectReference Include="..\EmploymentSystem.Services\EmploymentSystem.DTO.csproj" />
   </ItemGroup>
 

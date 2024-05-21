@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EmploymentSystem.Data\EmploymentSystem.Data.csproj" />
-    <ProjectReference Include="..\EmploymentSystem.Services\EmploymentSystem.DTO.csproj" />
+    <ProjectReference Include="..\EmploymentSystem.Dto\EmploymentSystem.DTO.csproj" />
 	  <PackageReference Include="MediatR" Version="10.0.1" />
 	  <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
 	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.4" />

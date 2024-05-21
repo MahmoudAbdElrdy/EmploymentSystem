@@ -19,7 +19,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EmploymentSystem.CQRS\EmploymentSystem.CQRS.csproj" />
-    <ProjectReference Include="..\EmploymentSystem.Services\EmploymentSystem.DTO.csproj" />
     <ProjectReference Include="..\EmploymentSystem.Service\EmploymentSystem.Service.csproj" />
   </ItemGroup>
 

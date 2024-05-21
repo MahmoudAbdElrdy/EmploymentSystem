@@ -9,7 +9,7 @@ using System.Reflection;
 using System.Text;
 
 public class Startup
-{
+{ 
     public Startup(IConfiguration configuration)
     {
         Configuration = configuration;
